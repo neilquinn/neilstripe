@@ -1,1 +1,1 @@
-web: gunicorn neilstripe.wsgi
+web: gunicorn stripedemo.wsgi
