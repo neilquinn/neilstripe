@@ -1,1 +1,1 @@
-web: gunicorn stripedemo
+web: gunicorn stripedemo.wsgi

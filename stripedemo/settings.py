@@ -14,6 +14,12 @@ from pathlib import Path
 import os
 import django_heroku
 
+# setup project paths
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -22,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
+SECRET_KEY = 'avj7^@hm=s52_y$jdvk01j&=pnsbtx#-!!drhbt9th%tewpghi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
