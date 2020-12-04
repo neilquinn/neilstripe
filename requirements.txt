@@ -1,6 +1,5 @@
 gunicorn
 django-heroku
 Django
-pyscopg2
 pytz
 whitenoise
